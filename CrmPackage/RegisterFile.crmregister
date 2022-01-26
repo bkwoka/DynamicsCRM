@@ -4,34 +4,34 @@
     <Solution Assembly="CrmPackage.StudentPlugin.dll" Id="724efa3c-b5a8-44cd-a9f9-72e01432affb" IsolationMode="Sandbox" SourceType="Database">
       <PluginTypes>
         <clear />
-        <Plugin Description="Plug-in to Create of bk_student" FriendlyName="Create of bk_student" Name="CrmPackage.StudentPlugin.PostOperationbk_studentCreate" Id="683e18f8-1c0a-478b-9573-52f71e0ff4de" TypeName="CrmPackage.StudentPlugin.PostOperationbk_studentCreate">
+        <Plugin Description="Plug-in to Create of bk_student" FriendlyName="Create of bk_student" Name="CrmPackage.StudentPlugin.PostOperationbk_studentCreate" Id="ab597437-379f-466e-bcd6-21937bb1333c" TypeName="CrmPackage.StudentPlugin.PostOperationbk_studentCreate">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="Create of bk_student" Description="Create of bk_student" Id="aa868c07-287e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="Create of bk_student" Description="Create of bk_student" Id="09ca1a32-9e7e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
         </Plugin>
-        <Plugin Description="Plug-in to Create of bk_student" FriendlyName="Create of bk_student" Name="CrmPackage.StudentPlugin.PreOperationbk_studentCreate" Id="0e4c5027-a2d2-4f5b-86f2-4b63276433ef" TypeName="CrmPackage.StudentPlugin.PreOperationbk_studentCreate">
+        <Plugin Description="Plug-in to Create of bk_student" FriendlyName="Create of bk_student" Name="CrmPackage.StudentPlugin.PreOperationbk_studentCreate" Id="12215ab9-4a40-463c-a8e6-0cde60ce6f8c" TypeName="CrmPackage.StudentPlugin.PreOperationbk_studentCreate">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="Create of bk_student" Description="Create of bk_student" Id="c9b1fe31-267e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="Create of bk_student" Description="Create of bk_student" Id="0cca1a32-9e7e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
         </Plugin>
-        <Plugin Description="Plug-in to Create of bk_student" FriendlyName="Create of bk_student" Name="CrmPackage.StudentPlugin.PreValidatebk_studentCreate" Id="a0f58897-d7c3-4277-9dcf-3e954bac9533" TypeName="CrmPackage.StudentPlugin.PreValidatebk_studentCreate">
+        <Plugin Description="Plug-in to Create of bk_student" FriendlyName="Create of bk_student" Name="CrmPackage.StudentPlugin.PreValidatebk_studentCreate" Id="ca79800a-04c6-4bec-98c4-be5423b1d1d6" TypeName="CrmPackage.StudentPlugin.PreValidatebk_studentCreate">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="Create of bk_student" Description="Create of bk_student" Id="dadd10b2-887e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="Create of bk_student" Description="Create of bk_student" Id="0fca1a32-9e7e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
         </Plugin>
-        <Plugin Description="Plug-in to Delete of bk_student" FriendlyName="Delete of bk_student" Name="CrmPackage.StudentPlugin.PreValidatebk_studentDelete" Id="00000000-0000-0000-0000-000000000000" TypeName="CrmPackage.StudentPlugin.PreValidatebk_studentDelete">
+        <Plugin Description="Plug-in to Delete of bk_student" FriendlyName="Delete of bk_student" Name="CrmPackage.StudentPlugin.PreValidatebk_studentDelete" Id="23c229d8-7a83-42d9-9731-0e0087086538" TypeName="CrmPackage.StudentPlugin.PreValidatebk_studentDelete">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="Delete of bk_student" Description="Delete of bk_student" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="Delete of bk_student" Description="Delete of bk_student" Id="12ca1a32-9e7e-ec11-ad79-00155d006c04" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="bk_student" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
