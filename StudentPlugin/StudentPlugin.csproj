@@ -60,6 +60,8 @@
     <Compile Include="Constants\Constants.cs" />
     <Compile Include="PostOperationbk_studentCreate.cs" />
     <Compile Include="PreOperationbk_studentCreate.cs" />
+    <Compile Include="PreValidatebk_studentCreate.cs" />
+    <Compile Include="PreValidatebk_studentDelete.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PluginBase.cs" />
   </ItemGroup>
