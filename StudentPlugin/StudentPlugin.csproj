@@ -15,6 +15,7 @@
     <!--<TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>-->
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,7 +28,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -74,6 +74,8 @@
   <ItemGroup>
     <Compile Include="Constants\Constants.cs" />
     <Compile Include="PostOperationbk_studentCreate.cs" />
+    <Compile Include="PostOperationbk_studentUpdate.cs" />
+    <Compile Include="PreOperationbk_studentAssociateDisassociate.cs" />
     <Compile Include="PreOperationbk_studentCreate.cs" />
     <Compile Include="PreValidatebk_studentCreate.cs" />
     <Compile Include="PreValidatebk_studentDelete.cs" />
